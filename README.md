@@ -5,7 +5,7 @@ This project leverages historical data of COVID-19 cases and deaths in India fro
 Clone the Repository:
 
 ```bash
-git clone https://github.com/your-username/covid19-prediction-project.git
+git clone https://github.com/non-axiomatic/covid19-prediction-project.git
 cd covid19-prediction-project
 ```
 
