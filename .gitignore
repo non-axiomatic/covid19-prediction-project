@@ -1,0 +1,35 @@
+# Python related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter related
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Environment
+.env/
+.venv/
+*.env
+
+# macOS related
+.DS_Store
+
+# VSCode related
+.vscode/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+
