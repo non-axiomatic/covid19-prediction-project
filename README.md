@@ -9,15 +9,36 @@ git clone https://github.com/your-username/covid19-prediction-project.git
 cd covid19-prediction-project
 ```
 
-##Create a virtual environment and install the required packages:
+## Create a Virtual Environment and Install the Required Packages
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
-```
+1. Create a virtual environment:
 
-##Usage
+    ```bash
+    python -m venv venv
+    ```
+
+2. Activate the virtual environment:
+
+    - On macOS/Linux:
+    
+        ```bash
+        source venv/bin/activate
+        ```
+
+    - On Windows:
+    
+        ```bash
+        venv\Scripts\activate
+        ```
+
+3. Install the required packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+
+## Usage
 
 Run the script
 
@@ -27,11 +48,11 @@ python covid19_prediction.py
 
 The script will generate predictions based on the historical data and save the results in the specified output directory.
 
-##Data
+## Data
 
 The dataset used in this project is COVID19 data for overall INDIA.csv. It contains historical COVID-19 case and death data for India.
 
-##Features
+## Features
 
 - Visualizes daily confirmed cases and deaths.
 - Calculates death rate.
