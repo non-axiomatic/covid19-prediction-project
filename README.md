@@ -11,25 +11,28 @@ cd covid19-prediction-project
 
 ## Create a Virtual Environment and Install the Required Packages
 
-1. Create a virtual environment:
+1. Create a virtual environment with `pyenv`:
 
     ```bash
-    python -m venv venv
+    pyenv virtualenv <python_version> <env_name>
     ```
+
+    Replace `<python_version>` with the desired Python version (e.g., `3.11.4` I used in this project) and `<env_name>` with your chosen environment name (e.g., `covid19_env`).
 
 2. Activate the virtual environment:
 
-    - On macOS/Linux:
-    
-        ```bash
-        source venv/bin/activate
-        ```
+    ```bash
+    pyenv activate <env_name>
+    ```
 
-    - On Windows:
-    
-        ```bash
-        venv\Scripts\activate
-        ```
+    Replace `<env_name>` with the name of the environment you created (e.g., `covid19_env`).
+
+3. Install the required packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 
 3. Install the required packages:
 
